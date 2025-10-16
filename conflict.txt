@@ -1,1 +1,2 @@
-Line form feature-A
+Line from feature-A
+Line from feature-B
