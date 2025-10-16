@@ -28,4 +28,24 @@ We use command "git pull origin main"
    - git add conflict.txt
    - git commit -m "resolve merge conflict"
 
+Part 2 — Docker & Containerization
+
+3) Concepts (explain in README)
+
+Dockerfile — a text file with instructions to build an image.
+
+Docker image — a read-only template built from a Dockerfile (can be versioned/tagged).
+
+Docker container — a running instance of an image (the runtime).
+
+4) Reduce image size tips
+
+Use smaller base images (e.g., python:3.11-slim, alpine where appropriate).
+
+Use multi-stage builds for compiled languages.
+
+Combine RUN statements to reduce layers.
+
+Remove caches and unnecessary files; use --no-cache-dir for pip.
+
 
